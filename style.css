@@ -71,8 +71,7 @@
 }
 
   .right{
-grid-area: right;
-
+    grid-area: right;
 }
 .right a{
     background-color: rgba(196, 196, 196, 0.3);
@@ -87,18 +86,17 @@ grid-area: right;
     color: var(--text-orange)
 }
 .second{
-/* Rectangle 11 */
-position: absolute;
-width: 345px;
-height: 7rem;
-left: 0.9rem;
-top: 30rem;
-margin: 0 auto;
-color: var(--text-white);
-/* Green 1 */
-
-background: #219653;
-border-radius: 50px 0px;
+    /* Rectangle 11 */
+    position: absolute;
+    width: 345px;
+    height: 7rem;
+    left: 0.7rem;
+    top: 30rem;
+    margin: 0 auto;
+    color: var(--text-white);
+    /* Green 1 */
+    background: #219653;
+    border-radius: 50px 0px;
 }
 .second p{
     font-family: Roboto;
@@ -108,24 +106,24 @@ border-radius: 50px 0px;
     line-height: 1.5rem;
     text-align: center;
     text-transform: capitalize;
-padding-top: 1rem;
-padding-right: 1rem;
-padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
 
 }
 
 .third{
-position: absolute;
-width: 294px;
-height: 111px;
-left: 1px;
-top: 38rem;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 1.2rem;
-line-height: 1.5rem;
-padding: 1rem;
+    position: absolute;
+    width: 294px;
+    height: 111px;
+    left: 1px;
+    top: 38rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 1rem;
 }
 .third a{
     text-decoration: none;
@@ -154,31 +152,30 @@ padding: 1rem;
  }
 
       .left{
-grid-area: left;
-height: 100%;
-gap: 30rem;
+    grid-area: left;
+    height: 100%;
+    gap: 30rem;
 
-position: absolute;
-width: 358px;
-height: 301px;
-left: 7px;
-top: 76px;
+    position: absolute;
+    width: 358px;
+    height: 301px;
+    left: 7px;
+    top: 76px;
 
       }
       .verical-line{
        display: none;
        }
        .right{
- grid-area: right;
- height: 100%;
- gap: 30rem;
+    grid-area: right;
+    height: 100%;
+    gap: 30rem;
 
- position: absolute;
-width: 402px;
-height: 277px;
-left: 467px;
-top: 181px;
-
+    position: absolute;
+    width: 402px;
+    height: 277px;
+    left: 467px;
+    top: 181px;
         }
       
     }
