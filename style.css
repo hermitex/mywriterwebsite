@@ -38,7 +38,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.7rem;
     line-height: 3rem;
     text-align: center;
     text-transform: capitalize;
@@ -86,8 +86,10 @@ gap: 1rem;
 .right a{
     background-color: rgba(196, 196, 196, 0.3);
     border-radius: 50px 50px 50px 50px;
-    padding: 0.5rem;
+    padding: 0.1rem !important;
     text-decoration: none;
+    display: block;
+  
 }
 
 #orange{
