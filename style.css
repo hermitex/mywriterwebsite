@@ -35,10 +35,11 @@
     align-content: center;
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 40vh;
     margin: 0 auto;  
     justify-content: center;  
     justify-content: space-between;
+    margin-bottom: 10rem;
 }
   .first{
     display: grid;
@@ -48,12 +49,14 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 3rem;
     text-align: center;
     text-transform: capitalize;
     margin-top: 5rem;
-    gap: 3rem;
+    padding: 1rem;
+    gap: 0.5rem;
+   
   }
 .left{
     grid-area: left;
@@ -76,7 +79,7 @@
 .right a{
     background-color: rgba(196, 196, 196, 0.3);
     border-radius: 50px 50px 50px 50px;
-    padding: 0.1rem !important;
+ 
     text-decoration: none;
     display: block;
   
@@ -86,15 +89,14 @@
     color: var(--text-orange)
 }
 .second{
-    /* Rectangle 11 */
-   
+    /* Rectangle 11 */   
     width: 90%;
     margin: 0 auto;
     color: var(--text-white);
     /* Green 1 */
     background: #219653;
     border-radius: 50px 0px;
-    margin-top: -13rem;
+    margin-top: -9rem;
 }
 .second p{
     font-family: Roboto;
@@ -107,15 +109,11 @@
     padding-top: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
-
+    padding-bottom: 1rem;
 }
 
 .third{
-    position: absolute;
-    width: 294px;
-    height: 111px;
-    left: 1.5px;
-    top: 36rem;
+   
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -178,4 +176,10 @@
       
     }
     
-  
+    @media screen and (max-width: 360px) {
+        .overlay{
+          
+            margin-bottom: 15rem;
+        }
+    }
+    
