@@ -8,6 +8,7 @@
   width: 100%;
   z-index: 3;
   margin-bottom: 30rem !important;
+  border-bottom: 0.02px solid #17a2b8;
 }
 .header ul {
   margin: 0;
@@ -32,7 +33,7 @@
   float: left;
   display: block;
   font-size: 1.2em;
-  padding: 12px 10px;
+  padding: 10px 10px;
   color: var(--text-yellow);
   text-decoration: none;
   cursor: pointer;
