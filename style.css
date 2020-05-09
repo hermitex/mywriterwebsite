@@ -52,6 +52,7 @@ width: 132px;
 height: 117px;
 left: 15px;
 top: 92px;
+gap: 1rem;
   }
   .left span{
     display: block;
@@ -64,7 +65,9 @@ width: 300px;
 height: 0px;
 left: 10px;
 top: 255px;
-
+gap: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
 /* Yellow */
 
 border: 1px solid #F2C94C;
@@ -78,6 +81,7 @@ width: 206px;
 height: 131px;
 left: 167px;
 top: 97px;
+gap: 1rem;
 }
 .right a{
     background-color: rgba(196, 196, 196, 0.3);
