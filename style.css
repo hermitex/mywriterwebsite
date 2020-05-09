@@ -87,16 +87,14 @@
 }
 .second{
     /* Rectangle 11 */
-    position: absolute;
-    width: 345px;
-    height: 7rem;
-    left: 0.7rem;
-    top: 30rem;
+   
+    width: 90%;
     margin: 0 auto;
     color: var(--text-white);
     /* Green 1 */
     background: #219653;
     border-radius: 50px 0px;
+    margin-top: -13rem;
 }
 .second p{
     font-family: Roboto;
@@ -116,8 +114,8 @@
     position: absolute;
     width: 294px;
     height: 111px;
-    left: 1px;
-    top: 38rem;
+    left: 1.5px;
+    top: 36rem;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
