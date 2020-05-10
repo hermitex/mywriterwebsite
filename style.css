@@ -129,6 +129,9 @@
 .third li{
     list-style: none;
 }
+.footer{
+    display: none;
+}
 
 @media screen and (min-width: 48em) {  
     .first{
@@ -195,6 +198,9 @@ border: 1px solid #17a2b8;
    
 
       }
+      .third{
+          margin-bottom: 5rem;
+      }
       .second p{
             
     font-size: 2.5rem !important;
@@ -212,7 +218,7 @@ border: 1px solid #17a2b8;
       }
       .third ul{
           display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         font-size: 2.5rem;
         line-height: 3rem;
         transition: all 3s ease-in-out;
@@ -222,7 +228,34 @@ border: 1px solid #17a2b8;
      color: #17a2b8;
        
     }
+    .footer{
+        height: 3rem;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column;
+        text-align: center;
+        background-color: #0a0a0a;
+        position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       border-top: 0.1px solid #17a2b8;
     }
+    .footer a{
+        color: #17a2b8 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 1s ease-in-out;
+    }
+    .footer a:hover{
+        color: yellow !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+    }
+    }
+    
     
     @media screen and (max-width: 360px) {
         .overlay{
@@ -231,4 +264,5 @@ border: 1px solid #17a2b8;
           
         }
     }
+
     
